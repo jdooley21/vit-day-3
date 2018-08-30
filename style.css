@@ -1,0 +1,76 @@
+.nav-item {
+    margin-left: 50px;
+  }
+  
+  .welcome {
+    text-align: center;
+    padding: 25px;
+    background-color: black;
+    color: white;
+  }
+  
+  .welcome h1 {
+    font-size: 60px;
+  }
+
+  .welcome p {
+      font-size: 24px;
+  }
+  
+  .intro-img {
+    width: 100%;
+  }
+  
+  .reasons {
+    background-color: #ff6363;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    justify-content: center;
+    padding: 50px;
+  }
+  
+  .cards {
+    border: 1px solid white;
+    background-color: #307fff;
+    margin: 30px auto;
+    width: 500px;
+    padding: 50px;
+    line-height: 40px;
+    -webkit-box-shadow: -7px 7px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -7px 7px 17px 0px rgba(0,0,0,0.75);
+    box-shadow: -7px 7px 17px 0px rgba(0,0,0,0.75);
+  }
+  
+  .cards h2 {
+    text-align: center;
+    color: white;
+  }
+  
+  .cards h3 {
+    text-align: center;
+  }
+  
+  ul li {
+    color: white;
+  }
+
+  footer {
+    background-color: #020202;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  footer p {
+      color: white;
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+  footer a:hover {
+    color: rgba(255, 255, 255, 0.575);
+    text-decoration: none;
+  }
